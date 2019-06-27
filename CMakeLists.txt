@@ -8,6 +8,7 @@ if (NOT CMAKE_BUILD_TYPE)
 endif() 
 
 find_package(PythonLibs 3 REQUIRED)
+find_package(Git REQUIRED)
 
 message(STATUS "Submodule update")
 execute_process(COMMAND ${GIT_EXECUTABLE} submodule update --init --recursive
