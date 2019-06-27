@@ -53,7 +53,7 @@ Dependencies:
 * g++, clang supporting c++11
 
 ```bash
-git clone --recursive https://github.com/juliangaal/pybind_demo
+git clone https://github.com/juliangaal/pybind_demo
 cd pybind_demo && mkdir build && cd build
 cmake ..
 make 
